@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root{
-    --cor_fundo: #000;
+    --cor_fundo: #000000;
     --cor_letras: #fff;
     --cor_alt: #22D4FD;
 }
@@ -42,18 +42,31 @@ h1{
     font-size: 150%;
     font-weight: 400;
     width: 400px;
+    margin-top: -15%;
 }
 
 .botao{
     font-family: montserrat;
     border-radius: 16px;
-    width: 280px;
-    height: 79px;
+    width: 250px;
+    height: 59px;
     font-size: 15px;
     font-weight: 600;
     background-color: var(--cor_alt);
     color: var(--cor_fundo);
     margin-top: 25px;
+}
+
+.botao2{
+    font-family: montserrat;
+    border-radius: 16px;
+    width: 250px;
+    height: 59px;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: var(--cor_alt);
+    color: var(--cor_fundo);
+    margin-left: 5%;
 }
 
 .rodape{
@@ -72,7 +85,6 @@ h1{
 .principal{
     display: flex;
     margin: 15%;
-    justify-content: space-between;
 }
 
 .texto{
@@ -84,6 +96,14 @@ h1{
 }
 
 .parag{
-    margin-bottom: 5%;
-    width: 615px;
+    text-align: justify;
+    width: 405px;
+}
+
+img{
+    width: 20em;
+    height: 20em;
+    margin-top: -33%;
+    box-shadow: 6px 6px 6px 6px var(--cor_alt);
+    border-radius: 5%;
 }
