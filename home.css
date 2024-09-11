@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --cor-fundo: #000000;
+    --cor-alt: #22D4FD;
+    --cor-letras: #F6F6F6;
+    --fonteM: "Montserrat", sans-serif;
+    --fonteK: "Krona One", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--cor-fundo);
+    overflow: hidden;
+}
+
+nav {
+    display: flex;
+    margin-left: 23%;
+    margin-top: 43px;
+    gap: 10%;
+}
+
+.btn {
+    color: var(--cor-alt);
+    font-size: 26px;
+    text-decoration: none;
+    font-weight: 700;
+    line-height: 56px;
+    height: 56px;
+    font-family: var(--fonteM);
+}
+
+main {
+    display: flex;
+    align-items: center;
+    margin: 6%;
+    margin-left: 80px;
+    font-family: var(--fonteM);
+    justify-content: center;
+}
+
+.text {
+    width: 515px;
+    height: 582px;
+    text-align: justify;
+}
+
+h1 {
+    color: var(--cor-letras);
+    font-family: var(--fonteK);
+    width: 593px;
+    height: 23%;
+    font-weight: normal;
+    font-size: 26px;
+    margin-top: 30px;
+    line-height: 40px;
+}
+
+strong {
+    color: var(--cor-alt);
+}
+
+h4 {
+    color: var(--cor-letras);
+    font-size: 108%;
+    font-weight: 400;
+    width: 593px;
+    height: 141px;
+    line-height: 25px;
+}
+
+.btnL{
+    background-color: var(--cor-alt);
+    color: var(--cor-fundo);
+    width: 210px;
+    height: 60px;
+    font-size: 18px;
+    border-radius: 16px;
+    border: 0;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+}
+
+.links{
+    display: flex;
+    gap: 30px;
+}
+
+img {
+    width: 320px;
+    height: 370px;
+    margin-bottom: 220px;
+}
+
+footer {
+    background-color: var(--cor-alt);
+    color: var(--cor-fundo);
+    font-family: var(--fonteM);
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    padding: 20px 0;
+    font-family: var(--fonteM);
+    font-weight: 600;
+    font-size: 18px;
+}
