@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@media(max-width: 846px){
+    main {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
 
 :root {
     --cor-fundo: #000000;
@@ -21,7 +27,7 @@ body {
 
 nav {
     display: flex;
-    margin-left: 23%;
+    margin-left: 28%;
     margin-top: 43px;
     gap: 10%;
 }
@@ -70,7 +76,7 @@ h4 {
     color: var(--cor-letras);
     font-size: 108%;
     font-weight: 400;
-    width: 593px;
+    width: 441px;
     height: 141px;
     line-height: 25px;
 }
@@ -96,9 +102,11 @@ h4 {
 }
 
 img {
-    width: 320px;
+    width: 300px;
     height: 370px;
     margin-bottom: 220px;
+    border-radius: 5%;
+    border: 3px solid var(--cor-alt);
 }
 
 footer {
